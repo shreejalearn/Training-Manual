@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
+.App {
+  overflow-x: hidden !important; /* Use !important for testing */
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.navbar {
+  background-color: #B5C0D0;
+  padding: 10px;
+  top: 0;
+  position:fixed;
+  left: 0%;
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  z-index: 1000;  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
